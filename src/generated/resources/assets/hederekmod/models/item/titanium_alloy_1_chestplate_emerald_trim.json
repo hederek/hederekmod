@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hederekmod:item/titanium_alloy_1_chestplate",
+    "layer1": "minecraft:trims/items/chestplate_trim_emerald"
+  }
+}

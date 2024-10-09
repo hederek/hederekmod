@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "elementalchemistry:block/titanium_alloy_1"
-  }
-}

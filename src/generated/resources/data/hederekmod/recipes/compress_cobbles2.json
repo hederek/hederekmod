@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hederekmod:compress_cobbles1"
+    },
+    {
+      "item": "hederekmod:compress_cobbles1"
+    },
+    {
+      "item": "hederekmod:compress_cobbles1"
+    },
+    {
+      "item": "hederekmod:compress_cobbles1"
+    },
+    {
+      "item": "hederekmod:compress_cobbles1"
+    },
+    {
+      "item": "hederekmod:compress_cobbles1"
+    },
+    {
+      "item": "hederekmod:compress_cobbles1"
+    },
+    {
+      "item": "hederekmod:compress_cobbles1"
+    },
+    {
+      "item": "hederekmod:compress_cobbles1"
+    }
+  ],
+  "result": {
+    "item": "hederekmod:compress_cobbles2"
+  }
+}

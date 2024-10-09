@@ -25,7 +25,7 @@ import org.slf4j.Logger;
 public class hederekmod
 {
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "elementalchemistry";
+    public static final String MODID = "hederekmod";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
