@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "elementalchemistry:titanium_alloy_1_boots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_titanium_alloy_1_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "elementalchemistry:titanium_alloy_1"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_titanium_alloy_1_boots",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "elementalchemistry:titanium_alloy_1_boots"
+    ]
+  },
+  "sends_telemetry_event": false
+}

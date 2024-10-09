@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "elementalchemistry:compress_3_gold"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "minecraft:gold_ingot"
+  }
+}

@@ -1,0 +1,6 @@
+// 1.20.1	2024-09-09T14:16:56.21947	Tags for minecraft:block mod id elementalchemistry
+8d31d3308d591e83da76d67c995be57aacad3c51 data/elementalchemistry/tags/blocks/titanium_tools.json
+984a835f12c583514b244703d6bad1afa79b3402 data/elementalchemistry/tags/blocks/universal_tool.json
+e1f133ae5b5a8fd974d098c1f01baaf7249646f8 data/minecraft/tags/blocks/mineable/pickaxe.json
+a875b7d6b1d64611574d93c564b71050768b1d09 data/minecraft/tags/blocks/needs_diamond_tool.json
+dc432746e2ef749e85b04cd73dd54424017042cc data/minecraft/tags/blocks/needs_iron_tool.json

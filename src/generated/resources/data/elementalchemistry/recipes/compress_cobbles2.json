@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "elementalchemistry:compress_cobbles1"
+    },
+    {
+      "item": "elementalchemistry:compress_cobbles1"
+    },
+    {
+      "item": "elementalchemistry:compress_cobbles1"
+    },
+    {
+      "item": "elementalchemistry:compress_cobbles1"
+    },
+    {
+      "item": "elementalchemistry:compress_cobbles1"
+    },
+    {
+      "item": "elementalchemistry:compress_cobbles1"
+    },
+    {
+      "item": "elementalchemistry:compress_cobbles1"
+    },
+    {
+      "item": "elementalchemistry:compress_cobbles1"
+    },
+    {
+      "item": "elementalchemistry:compress_cobbles1"
+    }
+  ],
+  "result": {
+    "item": "elementalchemistry:compress_cobbles2"
+  }
+}
