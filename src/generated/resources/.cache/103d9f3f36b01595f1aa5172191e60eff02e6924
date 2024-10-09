@@ -1,0 +1,4 @@
+// 1.20.1	2024-10-09T22:25:43.2409256	Registries
+79a13cd32a214a886b0d42b386ca495922a579ae data/hederekmod/forge/biome_modifier/add_titanium_ore.json
+7e47b76f82f51aec2c694e9c39e35e3b5370a8a7 data/hederekmod/worldgen/configured_feature/titanium_ore.json
+d9b0aa43da9e3dccf14f8b8b8c9acca83470ef88 data/hederekmod/worldgen/placed_feature/titanium_ore_placed.json
