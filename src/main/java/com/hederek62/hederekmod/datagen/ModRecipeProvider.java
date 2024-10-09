@@ -23,8 +23,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         super(pOutput);
     }
     //以下方法用于定义熔炼的矿石
-//    private static final List<ItemLike> BLUESTONE_SMELTABLES = List.of(moditems.BLUESTONE_INGOT.get(),
-//            blocks.BLUESTONE.get());
+    private static final List<ItemLike> TITANIUM_SMELTABLES = List.of(Mod_main_items.TITANIUM_RAW.get());
 //    private static final List<ItemLike> BLUESTONE_ORE_SMELTABLES = List.of(moditems.BLUESTONE_Essence.get(),
 //            blocks.BLUESTONE_ORE.get());
 
@@ -32,8 +31,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     //以下方法用于将配方注册
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
-//        oreBlasting(pWriter,BLUESTONE_SMELTABLES, RecipeCategory.MISC, moditems.BLUESTONE_INGOT.get(), 0.7f, 200, "bluestone_ingot");
-//        oreSmelting(pWriter,BLUESTONE_SMELTABLES, RecipeCategory.MISC, moditems.BLUESTONE_INGOT.get(), 0.7f, 100, "bluestone_ingot");
+        oreBlasting(pWriter,TITANIUM_SMELTABLES, RecipeCategory.MISC, Mod_main_items.TITANIUM_RAW.get(), 0.7f, 200, "titanium");
+        oreSmelting(pWriter,TITANIUM_SMELTABLES, RecipeCategory.MISC, Mod_main_items.TITANIUM_RAW.get(), 0.7f, 100, "titanium");
 //        oreBlasting(pWriter,BLUESTONE_ORE_SMELTABLES, RecipeCategory.MISC, moditems.BLUESTONE_Essence.get(), 0.7f, 100, "bluestone_essence");
 //        oreSmelting(pWriter,BLUESTONE_ORE_SMELTABLES, RecipeCategory.MISC, moditems.BLUESTONE_Essence.get(), 0.7f, 100, "bluestone_essence");
 
