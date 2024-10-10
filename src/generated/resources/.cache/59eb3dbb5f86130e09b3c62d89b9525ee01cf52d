@@ -1,4 +1,7 @@
-// 1.20.1	2024-10-09T21:41:03.0330175	Loot Tables
+// 1.20.1	2024-10-10T12:19:15.5399376	Loot Tables
+3f9567ff7ada80d014b0c6066ee006aefb729603 data/hederekmod/loot_tables/blocks/compress_cobbles.json
+697d61c185506ca69ec46985f305c03450d6664c data/hederekmod/loot_tables/blocks/compress_cobbles1.json
+a955ffee84649f6c10dc39d8324401862b414e24 data/hederekmod/loot_tables/blocks/compress_cobbles2.json
 31ef1cba60bf45d29fe3b69ba09a261ba8db3f05 data/hederekmod/loot_tables/blocks/titanium_alloy_1.json
 8b969444c90f29b62b13e2155ae342d877c1dfff data/hederekmod/loot_tables/blocks/titanium_block.json
 b114e74da07be027c8383ce534f8f4e02c2ccaea data/hederekmod/loot_tables/blocks/titanium_ore.json

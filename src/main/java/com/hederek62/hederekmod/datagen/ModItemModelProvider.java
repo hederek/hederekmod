@@ -1,6 +1,7 @@
 package com.hederek62.hederekmod.datagen;
 
 
+import com.hederek62.hederekmod.Blocks.Modblocks;
 import com.hederek62.hederekmod.hederekmod;
 import com.hederek62.hederekmod.items.Mod_main_items;
 import net.minecraft.data.PackOutput;
@@ -59,7 +60,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         builditems(Mod_main_items.COMPRESS_3_DIAMOND);
         builditems(Mod_main_items.COMPRESS_3_GOLD);
         builditems(Mod_main_items.TITANIUM_TOOL);
-        builditems(Mod_main_items.COMPRESSCOBBLES);builditems(Mod_main_items.COMPRESSCOBBLES1);builditems(Mod_main_items.COMPRESSCOBBLES2);builditems(Mod_main_items.COMPRESSCOBBLES3);builditems(Mod_main_items.COMPRESSCOBBLES4);
+        builditems(Mod_main_items.COMPRESSCOBBLES3);builditems(Mod_main_items.COMPRESSCOBBLES4);
 
 
         trimmedArmorItem(Mod_main_items.TITANIUM_ALLOY_1_HELMET);

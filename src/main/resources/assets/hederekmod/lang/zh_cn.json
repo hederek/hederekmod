@@ -77,9 +77,9 @@
   "item.hederekmod.compress_3_diamond": "压缩钻石",
   "item.hederekmod.compress_3_iron": "压缩铁锭",
   "item.hederekmod.compress_3_gold": "压缩金锭",
-  "item.hederekmod.compress_cobbles": "致密原石",
-  "item.hederekmod.compress_cobbles1": "超致密原石",
-  "item.hederekmod.compress_cobbles2": "超致密原石 II",
+  "block.hederekmod.compress_cobbles": "致密原石",
+  "block.hederekmod.compress_cobbles1": "超致密原石",
+  "block.hederekmod.compress_cobbles2": "超致密原石 II",
   "item.hederekmod.compress_cobbles3": "超致密原石 III",
   "item.hederekmod.compress_cobbles4": "超致密原石 IV",
 

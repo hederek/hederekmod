@@ -35,9 +35,9 @@ public class CreativeTab {
                         //基于原版的物品
                         output.accept(Mod_main_items.COMPRESS_3_DIAMOND.get());
                         output.accept(Mod_main_items.COMPRESS_3_GOLD.get());
-                        output.accept(Mod_main_items.COMPRESSCOBBLES.get());
-                        output.accept(Mod_main_items.COMPRESSCOBBLES1.get());
-                        output.accept(Mod_main_items.COMPRESSCOBBLES2.get());
+                        output.accept(Modblocks.COMPRESSCOBBLES.get());
+                        output.accept(Modblocks.COMPRESSCOBBLES1.get());
+                        output.accept(Modblocks.COMPRESSCOBBLES2.get());
                         output.accept(Mod_main_items.COMPRESSCOBBLES3.get());
                         output.accept(Mod_main_items.COMPRESSCOBBLES4.get());
 

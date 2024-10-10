@@ -27,7 +27,7 @@ public class ModConfiguredFeatures {
 
         List<OreConfiguration.TargetBlockState> overworldTitaniumores = List.of(OreConfiguration.target(stoneReplaceable, Modblocks.TITANIUM_ORE.get().defaultBlockState()));
 
-        register(context, OVERWORLD_TITANIUM_ORE_KEY, Feature.ORE, new OreConfiguration(overworldTitaniumores, 6));
+        register(context, OVERWORLD_TITANIUM_ORE_KEY, Feature.ORE, new OreConfiguration(overworldTitaniumores, 18));
 
     }
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

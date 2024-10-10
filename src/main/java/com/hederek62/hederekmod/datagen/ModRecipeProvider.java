@@ -14,6 +14,7 @@ import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
+import net.minecraftforge.fml.common.Mod;
 
 import java.util.List;
 import java.util.function.Consumer;
@@ -40,22 +41,22 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("SSS")
                 .pattern(" S ")
                 .pattern(" S ")
-                .define('S',Mod_main_items.COMPRESSCOBBLES1.get())
-                .unlockedBy(getHasName(Mod_main_items.COMPRESSCOBBLES.get()), has(Tags.Items.COBBLESTONE)).save(pWriter);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Mod_main_items.COMPRESSCOBBLES.get(), 1)
+                .define('S',Modblocks.COMPRESSCOBBLES1.get())
+                .unlockedBy(getHasName(Modblocks.COMPRESSCOBBLES.get()), has(Tags.Items.COBBLESTONE)).save(pWriter);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Modblocks.COMPRESSCOBBLES.get(), 1)
                 .requires(Ingredient.of(Tags.Items.COBBLESTONE),9)
                 .unlockedBy(getHasName(Items.COBBLESTONE), has(Tags.Items.COBBLESTONE))
                 .save(pWriter);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Mod_main_items.COMPRESSCOBBLES1.get(), 1)
-                .requires(Mod_main_items.COMPRESSCOBBLES.get(),9)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Modblocks.COMPRESSCOBBLES1.get(), 1)
+                .requires(Modblocks.COMPRESSCOBBLES.get(),9)
                 .unlockedBy(getHasName(Items.COBBLESTONE), has(Tags.Items.COBBLESTONE))
                 .save(pWriter);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Mod_main_items.COMPRESSCOBBLES2.get(), 1)
-                .requires(Mod_main_items.COMPRESSCOBBLES1.get(),9)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Modblocks.COMPRESSCOBBLES2.get(), 1)
+                .requires(Modblocks.COMPRESSCOBBLES1.get(),9)
                 .unlockedBy(getHasName(Items.COBBLESTONE), has(Tags.Items.COBBLESTONE))
                 .save(pWriter);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Mod_main_items.COMPRESSCOBBLES3.get(), 1)
-                .requires(Mod_main_items.COMPRESSCOBBLES2.get(),9)
+                .requires(Modblocks.COMPRESSCOBBLES2.get(),9)
                 .unlockedBy(getHasName(Items.COBBLESTONE), has(Tags.Items.COBBLESTONE))
                 .save(pWriter);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Mod_main_items.COMPRESSCOBBLES4.get(), 1)

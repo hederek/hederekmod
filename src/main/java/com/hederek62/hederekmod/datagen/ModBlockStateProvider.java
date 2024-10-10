@@ -21,6 +21,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(Modblocks.TITANIUM_BLOCK);
         blockWithItem(Modblocks.TITANIUM_ALLOY_1);
         blockWithItem(Modblocks.TITANIUM_ORE);
+        blockWithItem(Modblocks.COMPRESSCOBBLES);
+        blockWithItem(Modblocks.COMPRESSCOBBLES1);
+        blockWithItem(Modblocks.COMPRESSCOBBLES2);
 
     }
 

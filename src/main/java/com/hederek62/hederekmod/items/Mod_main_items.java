@@ -69,13 +69,9 @@ public class Mod_main_items {
             ITEMS.register("compress_3_diamond",() -> new Item(new Item.Properties().stacksTo(128)));
     public static final RegistryObject<Item> COMPRESS_3_GOLD =
             ITEMS.register("compress_3_gold",() -> new Item(new Item.Properties().stacksTo(128)));
-    public static final RegistryObject<Item> COMPRESSCOBBLES =
-            ITEMS.register("compress_cobbles",()-> new Item(new Item.Properties().stacksTo(128)));
+
 //压缩原石
-    public static final RegistryObject<Item> COMPRESSCOBBLES1 =
-            ITEMS.register("compress_cobbles1",()-> new Item(new Item.Properties().stacksTo(128)));
-    public static final RegistryObject<Item> COMPRESSCOBBLES2 =
-            ITEMS.register("compress_cobbles2",()-> new Item(new Item.Properties().stacksTo(128)));
+
     public static final RegistryObject<Item> COMPRESSCOBBLES3 =
             ITEMS.register("compress_cobbles3",()-> new Item(new Item.Properties().stacksTo(128)));
     public static final RegistryObject<Item> COMPRESSCOBBLES4 =
@@ -83,7 +79,7 @@ public class Mod_main_items {
 
 //工具
     public static final RegistryObject<Item> TITANIUM_TOOL = ITEMS.register("titanium_tool",
-        () -> new Titanium_tool(6.0f, -4.0f, Tiers.NETHERITE, ModTags.Blocks.UNIVERSAL_TOOL, new Item.Properties()));
+        () -> new Titanium_tool(10.0f, -4.0F, Tiers.NETHERITE, ModTags.Blocks.UNIVERSAL_TOOL, new Item.Properties()));
 
 
 

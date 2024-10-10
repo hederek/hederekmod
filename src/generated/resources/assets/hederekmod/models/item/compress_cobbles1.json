@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "hederekmod:item/compress_cobbles1"
-  }
+  "parent": "hederekmod:block/compress_cobbles1"
 }

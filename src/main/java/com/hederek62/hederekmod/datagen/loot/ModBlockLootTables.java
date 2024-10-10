@@ -27,6 +27,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     protected void generate() {
         this.dropSelf(Modblocks.TITANIUM_BLOCK.get());
         this.dropSelf(Modblocks.TITANIUM_ALLOY_1.get());
+        this.dropSelf(Modblocks.COMPRESSCOBBLES.get());
+        this.dropSelf(Modblocks.COMPRESSCOBBLES1.get());
+        this.dropSelf(Modblocks.COMPRESSCOBBLES2.get());
         this.add(Modblocks.TITANIUM_ORE.get(),
                 (block) -> createCopperLikeOreDrops(Modblocks.TITANIUM_ORE.get(), Mod_main_items.TITANIUM_RAW.get()));
 

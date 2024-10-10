@@ -1,10 +1,19 @@
-// 1.20.1	2024-10-09T21:41:03.0330175	Block States: hederekmod
+// 1.20.1	2024-10-10T12:19:15.540972	Block States: hederekmod
+0efadd32969c322fedeb5256799bc51bd1758f10 assets/hederekmod/blockstates/compress_cobbles.json
+6df7380cdb6ade641488f84e0983cd80d2b27813 assets/hederekmod/blockstates/compress_cobbles1.json
+67e92902e863101dafa8caf3efda1039212a2954 assets/hederekmod/blockstates/compress_cobbles2.json
 fac4b1932b6bc90070b4761bcacdbccb17559f5f assets/hederekmod/blockstates/titanium_alloy_1.json
 6682cb98a48af76b55d7e3855507cc6249be7f5b assets/hederekmod/blockstates/titanium_block.json
 8be4ee97ecf6bec2d7506795fd7ecd3025dcb604 assets/hederekmod/blockstates/titanium_ore.json
+b9cdac8581bfa1502d92c8a44a2f5e1f0ccd9508 assets/hederekmod/models/block/compress_cobbles.json
+3dc37047cc53af2c1b0c022ba605c10933085967 assets/hederekmod/models/block/compress_cobbles1.json
+cafc73471c6baf8ea9bf9833ca17ee57b394e930 assets/hederekmod/models/block/compress_cobbles2.json
 20751514ba3d48796d462805bcc07589346f5ff2 assets/hederekmod/models/block/titanium_alloy_1.json
 71bba98ca5362d19c9bce19a664ea414b00e3ed2 assets/hederekmod/models/block/titanium_block.json
 1bfe9cbe3b87da5ea3c03de6ef7c20a4803d04c2 assets/hederekmod/models/block/titanium_ore.json
+4ffb24458ef1845aa2814c48aebc5cffd1ea0f8e assets/hederekmod/models/item/compress_cobbles.json
+9d5750ccb9219596659892d8acfde97e916b0d97 assets/hederekmod/models/item/compress_cobbles1.json
+ced806220c16310193015aa1dd61caf5a595bd5b assets/hederekmod/models/item/compress_cobbles2.json
 a60b753c5bcc82899449e7b4220add397c59eb58 assets/hederekmod/models/item/titanium_alloy_1.json
 44f9a62ddce3a675c4562ffb66749394d36c7e29 assets/hederekmod/models/item/titanium_block.json
 04abe789b37bb48b5e9b138f77946e8631e34fde assets/hederekmod/models/item/titanium_ore.json
