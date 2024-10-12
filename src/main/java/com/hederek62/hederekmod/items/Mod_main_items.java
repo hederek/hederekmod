@@ -79,7 +79,7 @@ public class Mod_main_items {
 
 //工具
     public static final RegistryObject<Item> TITANIUM_TOOL = ITEMS.register("titanium_tool",
-        () -> new Titanium_tool(10.0f, -4.0F, Tiers.NETHERITE, ModTags.Blocks.UNIVERSAL_TOOL, new Item.Properties()));
+        () -> new Titanium_tool(10, -0.1F, ModTiers.TITANIUM, ModTags.Blocks.UNIVERSAL_TOOL, new Item.Properties()));
 
 
 

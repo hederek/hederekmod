@@ -8,14 +8,17 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.DiggerItem;
 
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.block.Block;
+import net.minecraftforge.common.ToolAction;
+import net.minecraftforge.common.ToolActions;
 
 public class Titanium_tool extends DiggerItem {
 
-    public Titanium_tool(float pAttackDamageModifier, float pAttackSpeedModifier, Tier pTier, TagKey<Block> pBlocks, Properties pProperties) {
-        super(pAttackDamageModifier, pAttackSpeedModifier, pTier, pBlocks, pProperties);
+    public Titanium_tool(int pAttackDamageModifier, float pAttackSpeedModifier, Tier pTier, TagKey<Block> pBlocks, Properties pProperties) {
+        super((float)(pAttackDamageModifier), pAttackSpeedModifier, pTier, pBlocks, pProperties);
     }
 
     public static final MobEffectInstance EFFECT1 = new MobEffectInstance(MobEffects.NIGHT_VISION, 200000, 1);
@@ -39,6 +42,8 @@ public class Titanium_tool extends DiggerItem {
         return InteractionResult.SUCCESS;
 
     }
-
+    public boolean canPerformAction(ItemStack stack, ToolAction toolAction) {
+        return ToolActions.DEFAULT_SWORD_ACTIONS.contains(toolAction);
+    }
 
 }

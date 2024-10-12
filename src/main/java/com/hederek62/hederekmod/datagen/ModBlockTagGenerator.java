@@ -44,11 +44,13 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)//为方块添加“需要使用镐工具”标签
                 .add(Modblocks.TITANIUM_ORE.get(),
                         Modblocks.TITANIUM_BLOCK.get(),
-                        Modblocks.TITANIUM_ALLOY_1.get()
+                        Modblocks.TITANIUM_ALLOY_1.get(),
+                        Modblocks.COMPRESSCOBBLES2.get(),
+                        Modblocks.COMPRESSCOBBLES.get()
 
 
                 );
-        this.tag(ModTags.Blocks.UNIVERSAL_TOOL).addTags(BlockTags.MINEABLE_WITH_PICKAXE,BlockTags.MINEABLE_WITH_AXE,BlockTags.MINEABLE_WITH_HOE,BlockTags.MINEABLE_WITH_SHOVEL,BlockTags.NEEDS_STONE_TOOL)
+        this.tag(ModTags.Blocks.UNIVERSAL_TOOL).addTags(BlockTags.MINEABLE_WITH_PICKAXE,BlockTags.MINEABLE_WITH_AXE,BlockTags.MINEABLE_WITH_HOE,BlockTags.MINEABLE_WITH_SHOVEL)
                ;
 
         this.tag(ModTags.Blocks.TITANIUN_TOOLS)
