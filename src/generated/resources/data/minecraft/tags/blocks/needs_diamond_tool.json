@@ -1,6 +1,8 @@
 {
   "values": [
     "hederekmod:titanium_block",
-    "hederekmod:titanium_alloy_1"
+    "hederekmod:titanium_alloy_1",
+    "hederekmod:compress_cobbles2",
+    "hederekmod:compress_cobbles"
   ]
 }

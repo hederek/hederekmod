@@ -1,6 +1,6 @@
-// 1.20.1	2024-10-09T21:41:03.0330175	Tags for minecraft:block mod id hederekmod
+// 1.20.1	2024-10-16T21:48:40.4297969	Tags for minecraft:block mod id hederekmod
 8d31d3308d591e83da76d67c995be57aacad3c51 data/hederekmod/tags/blocks/titanium_tools.json
-984a835f12c583514b244703d6bad1afa79b3402 data/hederekmod/tags/blocks/universal_tool.json
-70ec3418387824010558b1857e90fe7d71b3b3bf data/minecraft/tags/blocks/mineable/pickaxe.json
-c1b98d65c67b5e0e0300866f27a0c2bea2e6b15c data/minecraft/tags/blocks/needs_diamond_tool.json
-7022a3b125700451ea6a3ff53a31253d3200056f data/minecraft/tags/blocks/needs_iron_tool.json
+0595caba448d740e8578fe3747ee1eee9e671eeb data/hederekmod/tags/blocks/universal_tool.json
+36f4b35592d487b58df868781f976d9bfc5cfea4 data/minecraft/tags/blocks/mineable/pickaxe.json
+fefe0cac9d167d5e736e3b85f1c3e1337037174e data/minecraft/tags/blocks/needs_diamond_tool.json
+a34faaf7a72ae3110cf07cd951d9b0c223f43474 data/minecraft/tags/blocks/needs_iron_tool.json

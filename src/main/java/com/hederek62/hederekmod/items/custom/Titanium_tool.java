@@ -14,6 +14,7 @@ import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.ToolAction;
 import net.minecraftforge.common.ToolActions;
+import org.jetbrains.annotations.NotNull;
 
 public class Titanium_tool extends DiggerItem {
 
@@ -29,15 +30,18 @@ public class Titanium_tool extends DiggerItem {
     public static final MobEffectInstance EFFECT6 = new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200000, 1);
    // public static final MobEffectInstance EFFECT7 = new MobEffectInstance(ModEffects.SUPER_STRENGTH.get(), 200000, 1);
 @Override
-    public InteractionResult useOn(UseOnContext pContext){
+    public @NotNull InteractionResult useOn(UseOnContext pContext){
 
         Player player = pContext.getPlayer();
+    if (player != null) {
         player.addEffect(EFFECT1);
-//        player.addEffect(EFFECT2);
-//        player.addEffect(EFFECT3);
         player.addEffect(EFFECT4);
         player.addEffect(EFFECT5);
         player.addEffect(EFFECT6);
+    }
+//        player.addEffect(EFFECT2);
+//        player.addEffect(EFFECT3);
+
         //player.addEffect(EFFECT7);
         return InteractionResult.SUCCESS;
 

@@ -32,17 +32,31 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     //以下方法用于将配方注册
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
-        oreBlasting(pWriter,TITANIUM_SMELTABLES, RecipeCategory.MISC, Mod_main_items.TITANIUM_RAW.get(), 0.7f, 200, "titanium");
-        oreSmelting(pWriter,TITANIUM_SMELTABLES, RecipeCategory.MISC, Mod_main_items.TITANIUM_RAW.get(), 0.7f, 100, "titanium");
+        //钛的高炉和熔炉配方
+        oreBlasting(pWriter,TITANIUM_SMELTABLES, RecipeCategory.MISC, Mod_main_items.TITANIUM.get(), 0.7f, 200, "titanium");
+        oreSmelting(pWriter,TITANIUM_SMELTABLES, RecipeCategory.MISC, Mod_main_items.TITANIUM.get(), 0.7f, 100, "titanium");
 //        oreBlasting(pWriter,BLUESTONE_ORE_SMELTABLES, RecipeCategory.MISC, moditems.BLUESTONE_Essence.get(), 0.7f, 100, "bluestone_essence");
 //        oreSmelting(pWriter,BLUESTONE_ORE_SMELTABLES, RecipeCategory.MISC, moditems.BLUESTONE_Essence.get(), 0.7f, 100, "bluestone_essence");
 
+
+//烈焰粉合成烈焰棒
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.BLAZE_ROD)
+                .pattern("SS")
+                .define('S',Items.BLAZE_POWDER)
+                .unlockedBy(getHasName(Items.BLAZE_POWDER), has(Items.BLAZE_ROD)).save(pWriter);
+//钛合成钛块
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Modblocks.TITANIUM_BLOCK.get(), 1)
+                .requires(Ingredient.of(Mod_main_items.TITANIUM.get()),9)
+                .unlockedBy(getHasName(Mod_main_items.TITANIUM.get()), has(Mod_main_items.TITANIUM.get()))
+                .save(pWriter);
+//万能工具配方
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Mod_main_items.TITANIUM_TOOL.get())
                 .pattern("SSS")
                 .pattern(" S ")
                 .pattern(" S ")
                 .define('S',Modblocks.COMPRESSCOBBLES1.get())
                 .unlockedBy(getHasName(Modblocks.COMPRESSCOBBLES.get()), has(Tags.Items.COBBLESTONE)).save(pWriter);
+//压缩原石
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Modblocks.COMPRESSCOBBLES.get(), 1)
                 .requires(Ingredient.of(Tags.Items.COBBLESTONE),9)
                 .unlockedBy(getHasName(Items.COBBLESTONE), has(Tags.Items.COBBLESTONE))
