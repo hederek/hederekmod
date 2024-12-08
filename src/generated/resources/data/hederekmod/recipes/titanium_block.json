@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hederekmod:titanium"
+    },
+    {
+      "item": "hederekmod:titanium"
+    },
+    {
+      "item": "hederekmod:titanium"
+    },
+    {
+      "item": "hederekmod:titanium"
+    },
+    {
+      "item": "hederekmod:titanium"
+    },
+    {
+      "item": "hederekmod:titanium"
+    },
+    {
+      "item": "hederekmod:titanium"
+    },
+    {
+      "item": "hederekmod:titanium"
+    },
+    {
+      "item": "hederekmod:titanium"
+    }
+  ],
+  "result": {
+    "item": "hederekmod:titanium_block"
+  }
+}

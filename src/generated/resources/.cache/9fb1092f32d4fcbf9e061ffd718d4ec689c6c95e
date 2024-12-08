@@ -1,4 +1,4 @@
-// 1.20.1	2024-10-16T21:48:40.4312584	Recipes
+// 1.20.1	2024-12-08T16:00:41.3790226	Recipes
 6f1e637996ce03aa35edb79e481c5836976e879b data/hederekmod/advancements/recipes/misc/compress_3_diamond.json
 03ce021b228e223d047e162b424168a0445bbef6 data/hederekmod/advancements/recipes/misc/compress_3_gold.json
 173db993e19f5e920f2d2f107265cf5666494263 data/hederekmod/advancements/recipes/misc/compress_cobbles.json
@@ -11,6 +11,7 @@ bacbd67a8157f16f7b0c7932c5b13eb196b0ae9d data/hederekmod/advancements/recipes/mi
 01fa42296da75e3e6b9651767d829f571c752e62 data/hederekmod/advancements/recipes/misc/titanium_alloy_1_chestplate.json
 6510c46e0e194ccd92d1b94f170e491ec5bb48ec data/hederekmod/advancements/recipes/misc/titanium_alloy_1_helmet.json
 a9780e5b6a5dd4a47e619a990b09e79c9f09b2c4 data/hederekmod/advancements/recipes/misc/titanium_alloy_1_leggings.json
+64973719a6b3f3fb5b03963ec98e0777a0d3b5fd data/hederekmod/advancements/recipes/misc/titanium_block.json
 fa7c87198249d6444225804e4cdbce6e7281bc74 data/hederekmod/advancements/recipes/misc/titanium_from_blasting_titanium_raw.json
 719730df67cc792101336fdc1d8d3b3c6515009b data/hederekmod/advancements/recipes/misc/titanium_from_smelting_titanium_raw.json
 60be641516724dbb7eed4c1bd1d8a8d877e5020a data/hederekmod/advancements/recipes/misc/titanium_tool.json
@@ -26,6 +27,7 @@ f52c9970443ddf3fcd02b29694ab75c724d8a500 data/hederekmod/recipes/compress_cobble
 a03ccff9dba7e1f226b623deb5db9963f36769f9 data/hederekmod/recipes/titanium_alloy_1_chestplate.json
 c75a9b8b3e1bc98aca4d3603820e48c8951c5d3f data/hederekmod/recipes/titanium_alloy_1_helmet.json
 2470c84f86aa73ccb86c55409a8d455ce446ee67 data/hederekmod/recipes/titanium_alloy_1_leggings.json
+0be70786d69ae34b7f067efa4e75eac39eeab70d data/hederekmod/recipes/titanium_block.json
 a3283bf1c71aba132fb6649820d01b8047a147e6 data/hederekmod/recipes/titanium_from_blasting_titanium_raw.json
 061e68158391600513495ab8b1a34f10db18e5ff data/hederekmod/recipes/titanium_from_smelting_titanium_raw.json
 4568f42aa7dcff8f7e20175a2f09344c4f7f05c7 data/hederekmod/recipes/titanium_tool.json

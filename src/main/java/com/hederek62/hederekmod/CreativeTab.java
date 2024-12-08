@@ -49,6 +49,7 @@ public class CreativeTab {
 
                         //工具类
                         output.accept(Mod_main_items.TITANIUM_TOOL.get());
+                        output.accept(Mod_main_items.TITANIUM_UNIVERSAL_TOOL.get());
 
 
 

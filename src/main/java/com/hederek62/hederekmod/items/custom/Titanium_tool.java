@@ -38,6 +38,7 @@ public class Titanium_tool extends DiggerItem {
         player.addEffect(EFFECT4);
         player.addEffect(EFFECT5);
         player.addEffect(EFFECT6);
+
     }
 //        player.addEffect(EFFECT2);
 //        player.addEffect(EFFECT3);

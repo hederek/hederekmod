@@ -46,6 +46,8 @@ public class ModItemModelProvider extends ItemModelProvider {
     //为物品模型提供json文件
     protected void registerModels() {
         builditems(Mod_main_items.TITANIUM);
+        builditems(Mod_main_items.TITANIUM_UNIVERSAL_TOOL);
+
         builditems(Mod_main_items.TITANIUM_RAW);
         //builditems(Mod_main_items.LITHIUM);
         builditems(Mod_main_items.HELIUM);

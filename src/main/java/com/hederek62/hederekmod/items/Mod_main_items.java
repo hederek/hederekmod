@@ -4,6 +4,7 @@ import com.hederek62.hederekmod.ModTags;
 import com.hederek62.hederekmod.hederekmod;
 import com.hederek62.hederekmod.items.custom.ModArmorItem;
 import com.hederek62.hederekmod.items.custom.Titanium_tool;
+import com.hederek62.hederekmod.items.custom.Titanium_universal_tool;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Tiers;
@@ -80,7 +81,8 @@ public class Mod_main_items {
 //工具
     public static final RegistryObject<Item> TITANIUM_TOOL = ITEMS.register("titanium_tool",
         () -> new Titanium_tool(10, -0.1F, ModTiers.TITANIUM, ModTags.Blocks.UNIVERSAL_TOOL, new Item.Properties()));
-
+    public static final RegistryObject<Item> TITANIUM_UNIVERSAL_TOOL = ITEMS.register("titanium_universal_tool",
+            () -> new Titanium_universal_tool(ModTiers.TITANIUM,36, -0.1F, ModTags.Blocks.UNIVERSAL_TOOL, new Item.Properties()));
 
 
 
