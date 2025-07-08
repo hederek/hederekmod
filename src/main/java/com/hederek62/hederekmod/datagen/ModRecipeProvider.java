@@ -56,6 +56,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern(" S ")
                 .define('S',Modblocks.COMPRESSCOBBLES1.get())
                 .unlockedBy(getHasName(Modblocks.COMPRESSCOBBLES.get()), has(Tags.Items.COBBLESTONE)).save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Mod_main_items.TITANIUM_UNIVERSAL_TOOL.get())
+                .pattern("SSS")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('S',Modblocks.COMPRESSCOBBLES1.get())
+                .unlockedBy(getHasName(Modblocks.COMPRESSCOBBLES.get()), has(Tags.Items.COBBLESTONE)).save(pWriter);
 //压缩原石
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Modblocks.COMPRESSCOBBLES.get(), 1)
                 .requires(Ingredient.of(Tags.Items.COBBLESTONE),9)

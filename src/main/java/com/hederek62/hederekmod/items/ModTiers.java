@@ -5,7 +5,9 @@ import net.minecraft.util.LazyLoadedValue;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.block.Block;
-import org.jetbrains.annotations.Nullable;
+
+
+import javax.annotation.Nullable;
 
 public enum ModTiers implements Tier {
     TITANIUM(4, 9999, 18.0F, 5.0F, 10,new LazyLoadedValue(() -> Ingredient.of(Mod_main_items.TITANIUM.get())));
